@@ -1,3 +1,8 @@
+//1.NATHAN KINGORI MACHIRA ENE212-0082/2021 
+//2.
+//3.
+//4.
+//5.
 #include <stdio.h>
 
 // Structure to represent a bank account
