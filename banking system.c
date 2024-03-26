@@ -3,7 +3,7 @@
 //3.TUM KEITH KIMUTAI ENE212-0092/2021
 //4.
 //5.
-#include <stdio.h>
+/*#include <stdio.h>
 
 // Structure to represent a bank account
 struct BankAccount {
@@ -69,7 +69,7 @@ int main() {
                 break;
             default:
                 printf("Invalid choice. Please try again.\n");
-        }
+        }*/
     } while(choice != 4);
 
     return 0;
