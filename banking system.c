@@ -26,3 +26,11 @@ int main()
     scanf("%d", &user_input);
     printf("Enter pin: ");
     scanf("%d", &pin);
+
+    switch(user_input)
+    {
+    case 1:
+        printf("Your total account balance is %f",total_amount);
+        
+        break;
+        
