@@ -42,4 +42,12 @@ int main()
         printf("Net_balance after deposit is %f", net_balance);
 
         break;
-        
+
+     case 3:
+        printf("Enter amount to withdraw: ");
+        scanf("%f", &withdraw);
+        float new_balance;
+        new_balance = total_amount - withdraw;
+        printf("Your New balance after withdraw is %f", new_balance);
+
+        break;
