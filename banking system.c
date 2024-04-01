@@ -51,3 +51,19 @@ int main()
         printf("Your New balance after withdraw is %f", new_balance);
 
         break;
+  case 4:
+        printf("Enter amount to transfer: ");
+        scanf("%f", &transfer);
+        float final_balance;
+        final_balance = total_amount - transfer;
+        printf("Final balance after transfer is %f", final_balance);
+
+        break;
+    }
+
+    }
+    else
+    {
+        printf("Wrong password!");
+    }
+    return 0;
