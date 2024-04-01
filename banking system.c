@@ -26,7 +26,8 @@ int main()
     scanf("%d", &user_input);
     printf("Enter pin: ");
     scanf("%d", &pin);
-
+    if (pin==password)
+    {
     switch(user_input)
     {
     case 1:
