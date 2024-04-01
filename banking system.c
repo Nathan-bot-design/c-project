@@ -33,4 +33,13 @@ int main()
         printf("Your total account balance is %f",total_amount);
         
         break;
+
+    case 2:
+        printf("Enter amount to  deposit:");
+        scanf("%f", &deposit);
+        float net_balance;
+        net_balance =total_amount + deposit;
+        printf("Net_balance after deposit is %f", net_balance);
+
+        break;
         
